@@ -118,13 +118,14 @@ AddOutputFilter chunkFilter
 			<Item Name="Begin.vi" Type="VI" URL="../Begin.vi"/>
 			<Item Name="Disabled.vi" Type="VI" URL="../Disabled.vi"/>
 			<Item Name="Finish.vi" Type="VI" URL="../Finish.vi"/>
-			<Item Name="FVI_Manette_Process.vi" Type="VI" URL="../FVI_Manette_Process.vi"/>
+			<Item Name="FVI_Manette_Swerve_Process.vi" Type="VI" URL="../FVI_Manette_Swerve_Process.vi"/>
 			<Item Name="Periodic Tasks.vi" Type="VI" URL="../Periodic Tasks.vi"/>
 			<Item Name="Robot Global Data.vi" Type="VI" URL="../Robot Global Data.vi"/>
 			<Item Name="Teleop.vi" Type="VI" URL="../Teleop.vi"/>
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
+		<Item Name="Drivetype.ctl" Type="VI" URL="../Drivetype.ctl"/>
 		<Item Name="MyGlobal.vi" Type="VI" URL="../MyGlobal.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Roue.ctl" Type="VI" URL="../Roue.ctl"/>
@@ -556,6 +557,8 @@ AddOutputFilter chunkFilter
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="FVI_Axes_DeadBand.vi" Type="VI" URL="../FVI_Axes_DeadBand.vi"/>
+			<Item Name="FVI_Manette_Process.vi" Type="VI" URL="../FVI_Manette_Process.vi"/>
+			<Item Name="FVI_Trajectiore_Cercle.vi" Type="VI" URL="../FVI_Trajectiore_Cercle.vi"/>
 			<Item Name="FVI_Trajectiore_Swerve4vitesse.vi" Type="VI" URL="../FVI_Trajectiore_Swerve4vitesse.vi"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -566,6 +569,7 @@ AddOutputFilter chunkFilter
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="tangente normalise.vi" Type="VI" URL="../tangente normalise.vi"/>
 			<Item Name="teleop_Moteur_Independant.vi" Type="VI" URL="../teleop_Moteur_Independant.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
