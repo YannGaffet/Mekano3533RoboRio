@@ -642,7 +642,6 @@ AddOutputFilter chunkFilter
 			<Item Name="FVI_Swerve_Normalise vitesses.vi" Type="VI" URL="../FVI_Swerve_Normalise vitesses.vi"/>
 			<Item Name="FVI_Trajectiore_Cercle_v2.vi" Type="VI" URL="../FVI_Trajectiore_Cercle_v2.vi"/>
 			<Item Name="FVI_Trajectiore_Swerve4vitesse.vi" Type="VI" URL="../FVI_Trajectiore_Swerve4vitesse.vi"/>
-			<Item Name="Gyro.vi" Type="VI" URL="../Gyro.vi"/>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
