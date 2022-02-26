@@ -1,5 +1,9 @@
 [My Computer]
+<<<<<<< Updated upstream
 My Computer = "192.168.0.108"
+=======
+My Computer = "192.168.0.106"
+>>>>>>> Stashed changes
 
 [Target]
 Target = "roboRIO-3533-FRC.local"
